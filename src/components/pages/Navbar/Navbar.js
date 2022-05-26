@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Button } from './Button';
+import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import  Dropdown  from './Dropdown';
+import  Dropdown  from '../Dropdown/Dropdown';
 
 
 function Navbar() {
@@ -45,7 +45,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/'
               className='nav-links'
               onClick={closeMobileMenu}>
                NEWS  <i className='fas fa-caret-down'/>
@@ -55,7 +55,7 @@ function Navbar() {
 
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/interview'
               className='nav-links'
               onClick={closeMobileMenu}>
               ENTREVISTAS
@@ -64,7 +64,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/entrevistas'
+              to='/whowere'
               className='nav-links'
               onClick={closeMobileMenu}>
               QUEM SOMOS
@@ -74,7 +74,7 @@ function Navbar() {
 
 
           <li className='nav-item'>
-            <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/events' className='nav-links' onClick={closeMobileMenu}>
             EVENTOS
             </Link>
           </li>

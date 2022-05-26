@@ -1,22 +1,22 @@
 export const MenuItems = [
   {
     title: 'Internacionais',
-    path: '/marketing',
+    path: '/internacional',
     cName: 'dropdown-link'
   },
   {
     title: 'Nacionais',
-    path: '/consulting',
+    path: '/national',
     cName: 'dropdown-link'
   },
   {
     title: 'Suplementação',
-    path: '/desing',
+    path: '/suplementation',
     cName: 'dropdown-link'
   },
   {
     title: 'Próximos eventos',
-    path: '/development',
+    path: '/nextevents',
     cName: 'dropdown-link'
   }
 ]
