@@ -2,14 +2,16 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 import { React } from 'react';
 
-import Navbar from './components/Navbar';
-import Home from './components/pages/Navbar/Home'
-import Products from './components/pages/Navbar/Products'
-import Services from './components/pages/Navbar/Services'
-import ContactUs from './components/pages/Navbar/ContactUs'
-import SignUp from './components/pages/Navbar/SignUp'
-import Marketing from './components/pages/Navbar/Marketing'
-import Consulting from './components/pages/Navbar/Consulting'
+import Navbar from './components/pages/Navbar/Navbar'
+import Home from './components/pages/Navbar/AssetsNavBar/Home'
+import Suplementation from './components/pages/Navbar/AssetsNavBar/Suplementation'
+import NextEvents from './components/pages/Navbar/AssetsNavBar/NextEvents'
+import Events from './components/pages/Navbar/AssetsNavBar/Events'
+import SignUp from './components/pages/Navbar/AssetsNavBar/SignUp'
+import International from './components/pages/Navbar/AssetsNavBar/International'
+import National from './components/pages/Navbar/AssetsNavBar/National'
+import WhoWere from './components/pages/Navbar/AssetsNavBar/WhoWere'
+import Interview from './components/pages/Navbar/AssetsNavBar/Interview'
 
 function App() {
   return (
@@ -17,12 +19,14 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/services' exact component={Services} />
-        <Route path='/products' exact component={Products} />
-        <Route path='/contact-us' exact component={ContactUs} />
+        <Route path='/nextevents' exact component={NextEvents} />
+        <Route path='/suplementation' exact component={Suplementation} />
+        <Route path='/events' exact component={Events} />
         <Route path='/sing-up' exact component={SignUp} />
-        <Route path='/marketing' exact component={Marketing} />
-        <Route path='/consulting' exact component={Consulting} />
+        <Route path='/internacional' exact component={International} />
+        <Route path='/national' exact component={National} />
+        <Route path='/whowere' exact component={WhoWere} />
+        <Route path='/Interview' exact component={Interview} />
       </Switch>
     </Router>
   );
