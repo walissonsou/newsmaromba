@@ -12,10 +12,12 @@ import International from './components/pages/Navbar/AssetsNavBar/International'
 import National from './components/pages/Navbar/AssetsNavBar/National'
 import WhoWere from './components/pages/Navbar/AssetsNavBar/WhoWere'
 import Interview from './components/pages/Navbar/AssetsNavBar/Interview'
+import ImageSlider from './components/Carrousel/ImageSlider'
 
 function App() {
   return (
-    <Router>
+    <>
+      <Router>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
@@ -29,6 +31,9 @@ function App() {
         <Route path='/Interview' exact component={Interview} />
       </Switch>
     </Router>
+    <ImageSlider />
+
+    </>
   );
 }
 
