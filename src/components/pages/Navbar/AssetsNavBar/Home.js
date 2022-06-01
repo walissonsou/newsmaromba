@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+
+import  {SliderData} from '../../../Carrousel/SliderData'
+import ImageSlider from '../../../Carrousel/ImageSlider'
+
 export default function Home(){
   return(
-    <>
-      <h1 className='home'> HOME </h1>
-    </>
+
+      <ImageSlider slides={SliderData} />
+
   )
 }

@@ -49,12 +49,14 @@
 }
 
 .nav-links {
+
   color: white;
   text-decoration: none;
   padding: 1.5rem 1rem;
 }
 
 .nav-links:hover {
+
   background-color: #838990;
   border-radius: 4px;
   transition: all 0.2s ease-out;

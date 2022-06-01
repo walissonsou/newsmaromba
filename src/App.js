@@ -31,7 +31,7 @@ function App() {
         <Route path='/Interview' exact component={Interview} />
       </Switch>
     </Router>
-    <ImageSlider />
+
 
     </>
   );

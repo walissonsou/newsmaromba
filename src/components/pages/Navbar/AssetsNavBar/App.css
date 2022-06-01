@@ -111,3 +111,37 @@
   color: #fff;
   font-size: 100px;
 }
+.slider{
+  z-index: -1;
+  margin-top: 10px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.image{
+
+  width: 1000px;
+  height: 600px;
+  border-radius: 5px;
+}
+.right-arrow{
+  position: absolute;
+  top: 40%;
+  right: 32px;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.left-arrow{
+  position: absolute;
+  top: 40%;
+  left: 32px;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
