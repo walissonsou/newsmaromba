@@ -13,10 +13,8 @@ const ImageSlider = (slides) => {
     setCurrent(current === 0 ? length -1 : current -1);
     };
 
-
-    if (!Array.isArray || length <= 0){
-      return null
-    }
+    if(current < 1)
+    return null
 
   return (
     <section className="slider">
@@ -27,6 +25,7 @@ const ImageSlider = (slides) => {
       {SliderData.map((slide, index) => {
 
         return (
+
           <div className={index === current ? 'slide active' : 'slide'} key={index} >
           {index === current && (<img  src={slide.image} alt='oioi papai' className="image" />)}
 

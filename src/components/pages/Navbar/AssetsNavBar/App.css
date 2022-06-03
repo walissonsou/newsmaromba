@@ -112,15 +112,15 @@
   font-size: 100px;
 }
 .slider{
-  z-index: -1;
-  margin-top: 10px;
+  z-index: 10;
+
   position: relative;
   height: 100vh;
   display: flex;
   justify-content: center;
 }
 .image{
-
+margin-top: 16px;
   width: 1000px;
   height: 600px;
   border-radius: 5px;
@@ -128,7 +128,7 @@
 .right-arrow{
   position: absolute;
   top: 40%;
-  right: 32px;
+  right: 270px;
   font-size: 3rem;
   color: rgb(0, 0, 0);
   z-index: 10;
@@ -138,10 +138,25 @@
 .left-arrow{
   position: absolute;
   top: 40%;
-  left: 32px;
+  left: 270px;
   font-size: 3rem;
   color: rgb(0, 0, 0);
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+.pageHome{
+  background-image:url('./assets/halteres5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+@media screen and (min-width:300){
+
+}
+@media screen and (max-width: 650px){
+
 }

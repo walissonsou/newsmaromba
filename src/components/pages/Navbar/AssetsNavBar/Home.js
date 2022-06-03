@@ -6,8 +6,8 @@ import ImageSlider from '../../../Carrousel/ImageSlider'
 
 export default function Home(){
   return(
-
+    <div className="pageHome">
       <ImageSlider slides={SliderData} />
-
+    </div>
   )
 }
