@@ -1,18 +1,19 @@
 # README
 <p align="center"> Esse projeto é um website </p>
 
-<p align="center">
-<a href="sobre"> Sobre </a>.
-<a href="roadmap"> Roadmap </a>.
-<a href="tecnologias"> Tecnologias </a>.
-<a href="pre-requisitos"> Pré Requisitos </a>.
-</p>
+
+[Prévia](#Prévia)
+
+# Prévia
+
+<img alt="Readme" title="Readme" src="./previa.png" />
+
 
 ---
 <br>
 
 <h4 align="center">
- 🚧 Projeto LOGIN ReactJs 🚀 Em construção 🚧...
+ 🚧 Projeto WebSite ReactJs 🚀 Em construção 🚧...
   </h4>
 
 ### Features
