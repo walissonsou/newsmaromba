@@ -1,5 +1,5 @@
 # README
-<p align="center"> Esse projeto é E-comerce  </p>
+<p align="center"> Esse projeto é um website </p>
 
 
 [Prévia](#Prévia)
